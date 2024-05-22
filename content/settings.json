@@ -9,7 +9,7 @@
   "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_",
-    "custom": "_"
+    "custom": "ecom-beauty"
   },
   "logo": "/img/uploads/logo.png",
   "mini_logo": "",

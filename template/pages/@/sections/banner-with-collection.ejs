@@ -1,0 +1,22 @@
+<% if (Array.isArray(opt.banners) && opt.banners.length) {
+  console.log(opt)
+  console.log(opt.banners)
+  let { title, link, shuffle, headless, autoplay, quantity, collection_id } = opt
+   %>
+  <div class="banners-grid-collection my-3 my-md-4 my-lg-5">
+    <div class="container">
+      <div class="row">
+        <% for (let i = 0; i < opt.banners.length; i++) { %>
+          <div class="col-12 col-lg-5 mb-3 mb-lg-0">
+            <%- await include('@/sections/inc/banner', { _, opt: opt.banners[i] }) %>
+          </div>
+          <div class="col-12 col-lg-7 mb-3 mb-lg-0">
+            <%- await include('@/sections/collection-shelf', {
+              _, opt: { collection_id, title, link, shuffle, headless, autoplay, quantity }
+            }) %>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+<% } %>

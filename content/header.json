@@ -1,21 +1,13 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 50%!",
-    "link": "/promotion"
+    "text": "FRETE GRÁTIS PARA TODO O BRASIL POR TEMPO LIMITADO",
+    "link": ""
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
     ],
-    "phone_wpp": true,
-    "socials": true
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
     "featured": [],
@@ -26,7 +18,5 @@
   "desktop_megamenu": false,
   "search_input": true,
   "alphabetical_order_submenu": false,
-  "full_width_submenu": false,
-  "menu_all_departments": false,
-  "name_all_departments": ""
+  "full_width_submenu": true
 }

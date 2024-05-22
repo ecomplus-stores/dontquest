@@ -1,1 +1,204 @@
 // Add your custom CSS here.
+.product-card, .products-carousel__item {
+    padding: 0;
+}
+
+.search-engine__retail .row .col-6.col-md-4.col-lg-3, .search-engine__results .container {
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+#cart-count {
+    background: transparent !important;
+    top: .01rem;
+    right: 1.01rem;
+    color: #000;
+}
+
+// Add your custom CSS here.
+@media  screen and (min-width: 1368px) {
+    .pswp__zoom-wrap img {
+      height: 1000px !important;
+      width: auto !important;
+    }
+  }
+  
+  //desktop normal size
+  @media  screen and (min-width: 992px) and (max-width: 1367px) {
+    //slider full
+    .banner-slider {
+      max-width: 100%;
+    }
+    .pswp__zoom-wrap img {
+      height: 1000px !important;
+      width: auto !important;
+    }
+  }
+  // apenas tablet
+  @media screen and (min-width: 481px) and (max-width: 991px) {
+    .pswp__zoom-wrap img {
+      height: 1000px !important;
+      width: auto !important;
+    }
+    .pswp__zoom-wrap {
+      transform: translate3d(6%, 1%, 0) scale(1) !important;
+    }
+  }
+  // apenas mobile
+  @media screen and (max-width: 480px) {
+    .pswp__zoom-wrap img {
+      height: 400px !important;
+      width: auto !important;
+    }
+    .checkout__step--current::after {
+      content: '\A aba ativa';
+      white-space: pre;
+    }
+    .checkout__step--past::after {
+      content: '\A editar frete';
+      white-space: pre;
+    }
+    .pswp__zoom-wrap {
+      transform: translate3d(18%, 20%, 0) scale(1) !important;
+    }
+    .products-carousel .glide__arrows i {
+      font-size: 1rem !important;
+    }
+      #scrollToBuy {
+      width: 100%;
+      position:fixed;
+      bottom:19px;
+      z-index:2000;
+      cursor:pointer;
+      outline:none!important
+    }
+  }
+
+  .btn.glide__arrow {
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #ccc;
+    font-size: 10px;
+  }
+
+  //acima de 13 polegadas
+@media  screen and (min-width: 1368px) {
+    .fas.fa-search {
+      display: none !important;
+    }
+    #nameIf {
+      padding: var(--spacer-2);
+      margin-left: var(--spacer-1);
+      color: var(--secondary);
+      position: relative;
+      top: var(--spacer-3)
+    }
+    #cart-button img {
+      position: relative;
+      bottom: 1rem;
+    }
+    .header__toggler-icon {
+      display: none !important;
+    }
+  }
+  //desktop normal size
+  @media  screen and (min-width: 992px) and (max-width: 1367px) {
+    //slider full
+    .banner-slider {
+      max-width: 100%;
+    }
+    .fas.fa-search {
+      display: none !important;
+    }
+    #cart-button img {
+      position: relative;
+      bottom: 1rem;
+    }
+    #nameIf {
+      padding: var(--spacer-2);
+      margin-left: var(--spacer-1);
+      color: var(--secondary);
+      position: relative;
+      top: var(--spacer-3)
+    }
+    .header__toggler-icon {
+      display: none !important;
+    }
+  }
+  // apenas tablet
+  @media screen and (min-width: 481px) and (max-width: 991px) {
+    #nameIf {
+      padding: var(--spacer-2);
+      margin-left: var(--spacer-5);
+      color: var(--secondary);
+      position: relative;
+      top: var(--spacer-3)
+    }
+    #cart-button img {
+      position: relative;
+      bottom: 1rem;
+    }
+  }
+
+  .products-carousel__title::before {
+    background: #000;
+    content: " ";
+    height: 3px;
+    left: 10%;
+    margin-bottom: -.05rem;
+    position: absolute;
+    top: 100%;
+    width: 20%;
+    margin: 0 auto;
+    left: 40%;
+  }
+
+  .products-carousel__title a::before {
+    background: #000;
+    content: " ";
+    height: 3px;
+    left: 10%;
+    position: absolute;
+    top: 120%;
+    width: 20%;
+    margin: 0 auto;
+    left: 40%;
+  }
+
+  #search-form {
+    border: 1.5px solid #000;
+  }
+
+  .top-bar__nav {
+    display: none !important;
+  }
+
+  #header {
+    padding-top: 0px !important;
+  }
+
+  @media (min-width: 576px) {
+    .header__logo {
+      max-height: 120px;
+      max-width: 300px;
+    }
+  }
+
+  @media(min-width: 992px) {
+    .header__buttons .btn {
+        font-size: 0.75rem !important;
+        margin-left: 0;
+    }
+  }
+
+  @media(max-width: 567px) {
+    #cart-count {
+      background: #0000 !important;
+      color: #000;
+      right: 0.63rem;
+      top: .9rem;
+    }
+    #cart-button img {
+      width: 27px
+    }
+  }

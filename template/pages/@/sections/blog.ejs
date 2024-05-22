@@ -24,7 +24,7 @@ if (Array.isArray(posts) && posts.length) {
                 <% if (thumbnail) { %>
                   <a href="/posts/<%= slug %>">
                     <img
-                      src="<%= _.assetsPrefix || '' %><%= thumbnail %>"
+                      src="<%= thumbnail %>"
                       class="card-img-top"
                       alt="<%= title %>"
                     >

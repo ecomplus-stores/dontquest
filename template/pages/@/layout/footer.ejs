@@ -3,6 +3,8 @@
 const footer = _.cms('footer') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
+
+const { path } = _.route
 %>
 
 <footer class="footer py-3 py-lg-4 py-xl-5">
@@ -157,9 +159,14 @@ const themeCustom = _.settings.theme.custom || ''
       <% } %>
 
       <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
-        <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
-        </h2>
+        <a href="/">
+          <%- await include('@/layout/inc/logo', { _ }) %>
+          <% if (path === '/' || path === '/index') { %> 
+            <h1  class="footer__title footer__store" itemprop="name"><%= footer.description.title || _.settings.name %></h1>
+          <% } else { %>
+            <h2  class="footer__title footer__store"><%= footer.description.title || _.settings.name %></h2>
+          <% } %>
+        </a>
         <p><%- footer.description.text || _.settings.description %></p>
 
         <div class="mt-4 mb-3">
