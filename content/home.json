@@ -8,11 +8,12 @@
       "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/banner.jpg",
+          "img": "/img/uploads/new-collection.webp",
           "link": "",
           "alt": "Home banner",
           "start": "2020-04-11T05:54:06.750Z",
-          "mobile_img": "/img/uploads/banner.jpg"
+          "mobile_img": "/img/uploads/mobile-new-collection.webp",
+          "end": ""
         }
       ]
     },
@@ -21,7 +22,6 @@
       "enabled": true
     },
     {
-      "type": "banner-with-collection",
       "banners": [
         {
           "img": "/img/uploads/lateral.jpg",
@@ -29,14 +29,15 @@
           "alt": "Home banner"
         }
       ],
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "",
-      "headless": true,
-      "limit": 12,
+      "quantity": 2,
       "page": 1,
-      "quantity": 2
+      "title": "",
+      "shuffle": true,
+      "headless": true,
+      "type": "banner-with-collection",
+      "limit": 12,
+      "collection_id": null,
+      "sort": "offers"
     },
     {
       "type": "collection-shelf",
