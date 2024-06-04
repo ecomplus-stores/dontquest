@@ -14,6 +14,12 @@
           "start": "2020-04-11T05:54:06.750Z",
           "mobile_img": "/img/uploads/mobile-new-collection.webp",
           "end": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-frete-gratis-1.webp",
+          "mobile_img": "/img/uploads/mobile-frete-gratis.webp"
         }
       ]
     },
