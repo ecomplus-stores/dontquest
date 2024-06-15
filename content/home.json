@@ -39,7 +39,7 @@
       "page": 1,
       "title": "Promo",
       "shuffle": false,
-      "headless": true,
+      "headless": false,
       "type": "banner-with-collection",
       "limit": 12,
       "collection_id": null,
