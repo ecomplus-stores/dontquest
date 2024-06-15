@@ -70,7 +70,7 @@ export default options => {
                   resource: 'brands',
                   label: 'Marca: '
                 }].reduce((options, shelf) => {
-                  state.routes.forEach(({ _id, resource, name, path }) => {
+                    options.state.routes.forEach(({ _id, resource, name, path }) => {
                     if (resource === shelf.resource) {
                       options.push({
                         label: shelf.label + name,
