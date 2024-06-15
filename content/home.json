@@ -28,6 +28,7 @@
       "enabled": false
     },
     {
+      "autoplay": 5000,
       "banners": [
         {
           "img": "/img/uploads/lateral.jpg",
@@ -42,8 +43,8 @@
       "headless": false,
       "type": "banner-with-collection",
       "limit": 12,
-      "collection_id": null,
-      "sort": "offers"
+      "collection_id": "664e5233f4e6d85ab28fee79:categories:Vestidos:/vestidos",
+      "sort": null
     },
     {
       "type": "collection-shelf",
