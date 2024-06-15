@@ -6,8 +6,8 @@ import getBlogPosts from "@ecomplus/storefront-template/template/js/netlify-cms/
 import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/extra-pages"
 import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
 
-export default options => {
-  options.sections = getSections(options).concat([
+export default opcoes => {
+  opcoes.sections = getSections(opcoes).concat([
     {
         label: "Banner com Coleção",
         name: "banner-with-collection",
@@ -70,7 +70,7 @@ export default options => {
                   resource: 'brands',
                   label: 'Marca: '
                 }].reduce((options, shelf) => {
-                    options.state.routes.forEach(({ _id, resource, name, path }) => {
+                    opcoes.state.routes.forEach(({ _id, resource, name, path }) => {
                     if (resource === shelf.resource) {
                       options.push({
                         label: shelf.label + name,
@@ -188,7 +188,7 @@ export default options => {
                   resource: 'categories',
                   label: 'Categoria: '
                 }].reduce((options, shelf) => {
-                  state.routes.forEach(({ _id, resource, name, path }) => {
+                    opcoes.state.routes.forEach(({ _id, resource, name, path }) => {
                     if (resource === shelf.resource) {
                       options.push({
                         label: shelf.label + name,
