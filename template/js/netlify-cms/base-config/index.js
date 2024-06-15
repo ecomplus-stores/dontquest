@@ -234,7 +234,7 @@ export default opcoes => {
     logo_url: "https://ecom.nyc3.digitaloceanspaces.com/storefront/cms.png",
     locale: "pt",
     load_config_file: Boolean(window.CMS_LOAD_CONFIG_FILE),
-    media_folder: `${options.baseDir}template/public/img/uploads`,
+    media_folder: `${opcoes.baseDir}template/public/img/uploads`,
     public_folder: "/img/uploads",
     slug: {
       encoding: "ascii",
@@ -242,12 +242,12 @@ export default opcoes => {
       sanitize_replacement: "-"
     },
     collections: [
-      getSettings(options),
-      getLayout(options),
-      getPages(options),
-      getBlogPosts(options),
-      getExtraPages(options),
-      getWidgets(options)
+      getSettings(opcoes),
+      getLayout(opcoes),
+      getPages(opcoes),
+      getBlogPosts(opcoes),
+      getExtraPages(opcoes),
+      getWidgets(opcoes)
     ]
   }
 }
