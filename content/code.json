@@ -1,5 +1,5 @@
 {
-  "css": "main form .form-control {\n    color: #3d414a;\n    font-size: 15px;\n}\n@media screen and (min-width: 992px) and (max-width: 1367px) {\n    #nameIf {\n        color: #000000;\n        margin-left: var(--spacer-1);\n        padding: var(--spacer-2);\n        position: relative;\n        top: var(--spacer-3);\n        text-transform: uppercase;\n        font-size: 13px;\n    }",
+  "css": "/*style mobile*/\n@media screen and (min-width: 992px) and (max-width: 1367px) {\n    #nameIf {\n        color: #000000;\n        margin-left: var(--spacer-1);\n        padding: var(--spacer-2);\n        position: relative;\n        top: var(--spacer-3);\n        text-transform: uppercase;\n        font-size: 13px;\n    }\n}\n\n/* style desktop */\nmain form .form-control {\n    color: #3d414a;\n    font-size: 15px;\n}\n\n.btn.glide__arrow {\n    background-color: #ccc;\n    border-radius: 100%;\n    font-size: 10px;\n    padding: 16px;\n    /* border-color: black; */\n    margin: 0px;\n}  \n",
   "html_head": "",
   "html_body": ""
 }
