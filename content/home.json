@@ -68,6 +68,14 @@
       "collection_id": "664e5218f4e6d85ab28fee12:categories:Nova Coleção:/nova-colecao",
       "sort": "news",
       "title": "OUTLET DQ - ESTOQUE LIMITADO"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "sales",
+      "title": "OS QUERIDINHOS DAS DQ GIRLS"
     }
   ]
 }
