@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "main form .form-control {\n    color: #3d414a;\n    font-size: 15px;\n}\n@media screen and (min-width: 992px) and (max-width: 1367px) {\n    #nameIf {\n        color: #000000;\n        margin-left: var(--spacer-1);\n        padding: var(--spacer-2);\n        position: relative;\n        top: var(--spacer-3);\n        text-transform: uppercase;\n        font-size: 13px;\n    }",
   "html_head": "",
   "html_body": ""
 }
