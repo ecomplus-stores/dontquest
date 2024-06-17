@@ -43,7 +43,7 @@
       "headless": false,
       "type": "banner-with-collection",
       "limit": 12,
-      "collection_id": "664e5233f4e6d85ab28fee79:categories:Vestidos:/vestidos",
+      "collection_id": null,
       "sort": null
     },
     {
