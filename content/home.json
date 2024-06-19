@@ -58,7 +58,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/pagina-produto-don-t-quest.jpg"
+      "img": "/img/uploads/pagina-produto-don-t-quest.jpg",
+      "mobile_img": "/img/uploads/design-sem-nome-2024-06-19t150900.955.png"
     },
     {
       "type": "collection-shelf",
