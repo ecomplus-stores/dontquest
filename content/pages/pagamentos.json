@@ -2,5 +2,15 @@
   "title": "Formas de pagamento",
   "meta_title": "Formas de pagamento",
   "meta_description": "Formas de pagamento",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "<!--StartFragment-->\n\n**Cartões de Crédito:** Trabalhamos com praticamente todas as bandeiras de cartão de crédito, e utilizamos o sistema do Pagar-me para que você tenha mais segurança na sua transação.\n\n**Parcelamento:** Parcelamos todas as suas compras em até 6X sem juros.\n\n**PIX:** Não tem cartão de crédito? Você tem a opção de pagar através o PIX. Processaremos o pedido, após confirmação do pagamento, geralmente acontece em segundos.\n\n<!--EndFragment-->",
+  "sections": [
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "title": "Vamos escolher um look?",
+      "sort": "news"
+    }
+  ]
 }
