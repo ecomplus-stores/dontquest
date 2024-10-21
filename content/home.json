@@ -38,13 +38,13 @@
       ],
       "quantity": 2,
       "page": 1,
-      "title": "Os mais desejados da Coleção",
+      "title": "Coleção Veneza",
       "shuffle": false,
       "headless": false,
       "type": "banner-with-collection",
       "limit": 12,
       "collection_id": null,
-      "sort": null
+      "sort": "news"
     },
     {
       "type": "collection-shelf",
