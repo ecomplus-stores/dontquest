@@ -9,7 +9,13 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/colecao-celeste?Coleção Celeste",
+      "/colecao-festas?Coleção Festas",
+      "/outlet?Outlet",
+      "/loja?LOJA",
+      "/vestidos?Vestidos"
+    ],
     "random": 6,
     "full_width": false
   },
