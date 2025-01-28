@@ -10,11 +10,9 @@
   },
   "categories_list": {
     "featured": [
-      "/colecao-celeste?Coleção Celeste",
-      "/colecao-festas?Coleção Festas",
-      "/outlet?Outlet",
-      "/loja?LOJA",
-      "/vestidos?Vestidos"
+      "/nova-colecao?Nova Coleção",
+      "/vestidos?Vestidos",
+      "/calcas?Calças"
     ],
     "random": 0,
     "full_width": false
