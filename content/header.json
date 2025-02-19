@@ -10,9 +10,10 @@
   },
   "categories_list": {
     "featured": [
-      "/nova-colecao?Nova Coleção",
+      "/colecoes?Coleções",
       "/vestidos?Vestidos",
-      "/calcas?Calças"
+      "/calcas?Calças",
+      "/blusas?Blusas"
     ],
     "random": 0,
     "full_width": false
