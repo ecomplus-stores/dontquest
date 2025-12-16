@@ -35,7 +35,7 @@
       "headless": false,
       "type": "banner-with-collection",
       "limit": 11,
-      "collection_id": null,
+      "collection_id": "664e5222f4e6d85ab28fee3f:categories:Outlet:/outlet",
       "sort": "news"
     },
     {
