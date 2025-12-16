@@ -40,12 +40,12 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": "6715729d0a4e586d93689ca4:categories:Coleção Veneza:/colecao-veneza",
+      "collection_id": "664e5222f4e6d85ab28fee3f:categories:Outlet:/outlet",
       "sort": "news",
-      "title": "COLEÇÃO VENEZA - PRÉ-VENDA"
+      "title": "OUTLET DON'T QUEST"
     },
     {
       "type": "collection-shelf",
