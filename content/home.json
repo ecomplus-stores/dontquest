@@ -8,18 +8,18 @@
       "full_width": true,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-desktop.jpg",
+          "mobile_img": "/img/uploads/banner-mobile-.jpg"
+        },
+        {
           "img": "/img/uploads/new-collection.webp",
           "link": "",
           "alt": "Home banner",
           "start": "2020-04-11T05:54:06.750Z",
           "mobile_img": "/img/uploads/mobile-new-collection.webp",
           "end": ""
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-desktop.jpg",
-          "mobile_img": "/img/uploads/banner-mobile-.jpg"
         }
       ]
     },
