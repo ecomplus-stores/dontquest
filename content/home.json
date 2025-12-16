@@ -23,18 +23,18 @@
       "autoplay": 5000,
       "banners": [
         {
-          "img": "/img/uploads/lateral.jpg",
+          "img": "/img/uploads/7725-1-min.jpg",
           "link": "",
           "alt": "Home banner"
         }
       ],
       "quantity": 2,
       "page": 1,
-      "title": "Coleção Veneza",
+      "title": "Outlet Don't Quest",
       "shuffle": false,
       "headless": false,
       "type": "banner-with-collection",
-      "limit": 12,
+      "limit": 11,
       "collection_id": null,
       "sort": "news"
     },
