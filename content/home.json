@@ -30,12 +30,12 @@
       ],
       "quantity": 2,
       "page": 1,
-      "title": "Outlet Don't Quest ",
-      "shuffle": false,
+      "title": "Casa DQ Temporada Verão",
+      "shuffle": true,
       "headless": false,
       "type": "banner-with-collection",
       "limit": 11,
-      "collection_id": "664e5222f4e6d85ab28fee3f:categories:Outlet:/outlet",
+      "collection_id": "697b8b32c650040a8c8c9032:categories:Casa DQ Temporada de verão:/casa-dq-temporada-de-verao",
       "sort": "news"
     },
     {
