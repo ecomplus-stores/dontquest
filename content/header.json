@@ -11,9 +11,7 @@
   "categories_list": {
     "featured": [
       "/casa-dq-temporada-de-verao?Casa DQ Temporada de verão",
-      "/vestidos?Vestidos",
-      "/calcas?Calças",
-      "/blusas?Blusas"
+      "/outlet?Outlet"
     ],
     "random": 0,
     "full_width": false
@@ -22,5 +20,5 @@
   "desktop_megamenu": false,
   "search_input": true,
   "alphabetical_order_submenu": false,
-  "full_width_submenu": true
+  "full_width_submenu": false
 }
