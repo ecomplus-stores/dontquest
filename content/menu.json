@@ -1,5 +1,8 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "casa-dq-temporada-de-verao",
+    "outlet"
+  ],
   "alphabetical_order": false,
   "phone_wpp": true,
   "socials": true
