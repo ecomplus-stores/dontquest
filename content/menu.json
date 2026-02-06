@@ -1,7 +1,11 @@
 {
   "sort_categories": [
     "casa-dq-temporada-de-verao",
-    "outlet"
+    "outlet",
+    "vestidos",
+    "calcas",
+    "blusas",
+    "conjuntos"
   ],
   "alphabetical_order": true,
   "phone_wpp": true,
