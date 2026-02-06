@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.cad596353ddde455bc0fc12020abfca0.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.c1e5de0bbcdb9b9a6e168ffee3279e55.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.6cc4d18cbe2577b896d9dc7bc4fb811d.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.9c3e4bc98073b55530d31a369bd26312.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.ac77ef1e90e15bc076b3c8ac4c12fe7f.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Don't Quest - Moda Feminina",
+  "short_name": "Don't Quest Moda Feminina",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "\nA Don't'Quest é uma marca de moda feminina que atua no mercado há 18 anos, destacando-se pela oferta de roupas de alta qualidade. Ao longo desses anos, a marca construiu uma reputação sólida com suas peças sofisticadas e cuidadosamente confeccionadas, atendendo às expectativas das mulheres que buscam estilo e elegância. Com uma abordagem que combina tendências contemporâneas e clássicas, a Don't'Quest tem se mantido relevante e desejada, conquistando um público fiel e exigente. A marca prioriza não apenas a estética, mas também o conforto e a durabilidade de seus produtos, refletindo um compromisso contínuo com a excelência e a satisfação de suas clientes.",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
