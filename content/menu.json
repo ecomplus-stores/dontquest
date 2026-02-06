@@ -5,7 +5,14 @@
     "vestidos",
     "calcas",
     "blusas",
-    "conjuntos"
+    "conjuntos",
+    "body",
+    "camisa",
+    "saia",
+    "saida-de-praia",
+    "short",
+    "cropped",
+    "t-shirt"
   ],
   "alphabetical_order": true,
   "phone_wpp": true,
