@@ -11,6 +11,12 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/desktop.webp",
+          "mobile_img": "/img/uploads/mobile.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/desktop.webp",
           "mobile_img": ""
         }
       ]
