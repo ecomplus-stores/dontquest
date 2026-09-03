@@ -208,3 +208,17 @@
   padding-left: 0;
   padding-right: 0
 }
+
+/* Fonte da loja (settings.font_family) sobrepondo o tema ecom-beauty,
+   que fixa Poppins em `main` e Playfair Display nos títulos */
+main,
+main .page-title__head h1,
+main .info-bar__item div .info-bar__title,
+main .products-carousel__title,
+main .blog .card-title a,
+main .product-card__link,
+main .product .shipping-calculator .input-group button .i-shipping-fast:before,
+main .product-description .container .a-column,
+main .product-specs .container .a-column {
+  font-family: var(--font-family-sans-serif) !important;
+}
