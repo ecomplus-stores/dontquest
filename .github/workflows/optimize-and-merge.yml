@@ -16,8 +16,6 @@ jobs:
 
       - name: Optimize with Calibre's image actions
         uses: calibreapp/image-actions@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Wait images optimization
         run: sleep 120
