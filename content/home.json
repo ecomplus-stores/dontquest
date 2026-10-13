@@ -10,8 +10,20 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/banner-2-6.webp",
+          "mobile_img": "/img/uploads/co-pia-de-banner-1-6.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/banner-set2026-desktop.webp",
           "mobile_img": "/img/uploads/banner-set2026-mobile.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-2-7.webp",
+          "mobile_img": "/img/uploads/co-pia-de-banner-1-5.webp"
         }
       ]
     },
